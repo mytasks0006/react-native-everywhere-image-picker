@@ -3,11 +3,11 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
 
-var _imagePicker = require("./imagePicker");
+var _imagePicker = _interopRequireDefault(require("./imagePicker"));
 
-var _imagePicker2 = _interopRequireDefault(_imagePicker);
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _imagePicker2.default;
+var _default = _imagePicker["default"];
+exports["default"] = _default;
